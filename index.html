@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>webdevelopmentproject</title>
+  <style>
+  *{
+   box-sizing: border-box;
+  }
+  body{
+   width: 0px;
+   height: 0px;
+   font: poppins:
+  }
+  #main{
+   width: 100%;
+   height: 50vh;
+   postion: relative;
+  }
+  nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     left: 0;  
+     width: 100%;
+     background-color: white
+  }
+  .logo img{
+      height: 50px;
+  }
+  .menu{
+     list-style: none;
+     display: flex;
+     
+  }
+  .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 22px;
+    text-transformation: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: black;
+  }
+  .hey{
+    color: green;
+    font-weight: 500;
+    font-size: 1cm;
+    border-bottom: 2px solid green;
+  }
+  a{
+    text-decoration: none;
+  }
+  .image{
+    width: 500px;
+    height: 500px;
+  }
+  .image img{
+    height: 50vh;
+    object-fit: relative; 
+    margin-right: 100px
+    
+  }
+  .content{
+    display: flex;
+    width: 10%;
+    height: 40%;
+    justify-content: space-around;
+    align-items: centre;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .main-text{
+    width: 500px;
+  }
+  .resume-btn{
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #00FFCC;
+    border-radius: 20px;
+  }
+  .resume-btn:hover {
+  background: red;
+  color: black;
+  }
+  .menu:hover {
+  color: violet;
+  }
+  </style>
+  </head>
+  <body>
+    <section id="main">
+      <nav>
+        <a href="https://projectWB.pranavkallingal.repl.co" class="logo"> 
+          <img src="image1.png" alt="logo of aromour">
+        </a>
+        <span class="menu-spacing"></span>
+        <ul class="menu">
+         <li><a href="#">HOME</a></li>
+         <li><a href="#">SKILL</a></li>
+         <li><a href="#">RECENT</a></li>
+         <li><a href="#">CLIENT</a></li>
+         <li><a href="#">CONTACT</a></li>
+        </ul>
+        <a href="#" class="hey">say <strong>HI</strong></a>
+      </nav>
+    </section>
+      <div class="content">
+        <div class="image">
+          <img src="images.jpeg" alt="rock pic">
+        </div>
+        <div class="maintext">
+          <h1>Hello,</h1>
+          <h2>Iam Rock</h2>
+          <p>Hey in this video i will be showing you guys how to build a website using only HTML and CSS</p>
+          <a href="#" class="resume-btn">see my resume</a>
+        </div>
+      </div>
+  </body>
+</html>
